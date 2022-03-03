@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minneapolis Weather</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script async defer src="weather.js"></script>
+</head>
+<body>
+
+    <h1 id="page-title">Minneapolis Weekly Weather Forecast</h1>
+  
+    <div>
+        <table id="weather-forecast">
+            <tr>
+                <th>Day</th>
+                <th>Temperature</th>
+                <th>Icon</th>
+                <th>Detailed Forecast</th>
+                <th>Wind Speed</th>
+                <th>Wind Direction</th>
+            </tr>
+            <tr>
+                <td>Tonight</td>
+                <td>-4</td>
+                <td><img src="cloudy.png"></td>
+                <td>Mostly cloudy, witha a low around -4</td>
+                <td>0 to 5mph</td>
+                <td>North northwest</td>
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>15</td>
+                <td><img src="snow.png"></td>
+                <td>Snow after 11 am. Mostly cloudly. Tuesday night would have snow before midnight.</td>
+                <td>5mph</td>
+                <td>North northeast</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>16</td>
+                <td><img src="Sun.jpeg"></td>
+                <td>Mostly sunny. Night time would be mostly clear</td>
+                <td>5 to 10mph</td>
+                <td>West</td>
+            </tr>
+            <td>Saturday</td>
+            <td>33</td>
+            <td><img src="Sun.jpeg"></td>
+            <td>Sunny and at nightime Mostly clear.</td>
+            <td>15mph</td>
+            <td>West southwest</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>25</td>
+            <td><img src="Sun.jpeg"></td>
+            <td>Partly Sunny and at night time partly cloudly</td>
+            <td>10mph</td>
+            <td>North northwest</td>
+        </tr>
+
+
+            <!-- Use JavaScript to create table rows for the forecast -->
+
+        </table>
+    </div>
+
+    <cite>Data from <a href="https://www.weather.gov/documentation/services-web-api">National Weather Service API</a></cite>
+
+</body>
+</html>

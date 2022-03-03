@@ -1,0 +1,35 @@
+body {
+    background-color: moccasin;
+    text-shadow: 1px 1px mediumorchid;
+    border-top-style: dotted;
+}
+h1 {
+    text-align: center;
+    text-shadow: 3px 1px pink;
+    
+}
+table {
+    border: 1px solid;
+    text-align: left;
+    width: 100%;
+}
+th, td{
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid maroon;
+}
+th {
+  background-color: peachpuff;
+  color: maroon;
+  height: 70px;
+  border-bottom: 1px solid maroon;
+}
+cite {
+    text-align: left;
+}
+img {
+    border: 1px solid #800000;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
